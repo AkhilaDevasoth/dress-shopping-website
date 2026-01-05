@@ -15,7 +15,10 @@ function Header() {
   return (
     <header className="bg-pink-200 text-black p-4 relative">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold">online Shopping</h1>
+        <div className="flex items-center space-x-2">
+          <img src="https://img.freepik.com/premium-vector/logo-online-shopping-is-displayed-white-background_936990-637.jpg?semt=ais_hybrid&w=740&q=80" alt="Logo" className="w-12 h-12 rounded" />
+          <h1 className="text-2xl font-bold">online Shopping</h1>
+        </div>
         <div className="flex items-center space-x-4">
           <input
             type="text"
